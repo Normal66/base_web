@@ -53,4 +53,9 @@ details > summary {
   -webkit-transform: scale(1.2) !important;
           transform: scale(1.2) !important;
 }
+
+.wrapper-base {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: #edeef0;
+}
 /*# sourceMappingURL=style.css.map */
