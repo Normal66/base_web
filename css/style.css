@@ -1,0 +1,22 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #04265E;
+}
+
+.bfr {
+  border: 1px solid red;
+}
+
+.bfb {
+  border: 1px solid blue;
+}
+/*# sourceMappingURL=style.css.map */
