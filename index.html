@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+
 </head>
+
 <body>
+
     
+    
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script>
+        $('body').append('<div class="upbtn"></div>');
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.upbtn').css({
+                    transform: 'scale(1)'
+                });
+            } else {
+                $('.upbtn').css({
+                    transform: 'scale(0)'
+                });
+            }
+        });
+        $('.upbtn').on('click', function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+            return false;
+        });
+    </script>
 </body>
+
 </html>
